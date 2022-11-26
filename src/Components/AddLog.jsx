@@ -65,7 +65,7 @@ function AddLog({ id = 0, elapsedTime = "" }) {
             </select>
             <div className="positionElement">
                 <DateIcon className="icon" />
-                <span className="text">Имя проекта</span>
+                <span className="text">Дата</span>
                 <div className="border">
                     <input
                         type={"date"}
@@ -85,7 +85,7 @@ function AddLog({ id = 0, elapsedTime = "" }) {
             </div>
             <div>
                 <GoalIcon />
-                <span className="text">Цель</span>
+                <span className="text">Прошло</span>
                 <div className="border">
                     <input
                         type={"time"}

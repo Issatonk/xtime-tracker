@@ -107,7 +107,7 @@ function Stats() {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
                 <YAxis
-                    dataKey="test"
+                    dataKey={projectName[0]}
                     domain={[0, "auto"]}
                     interval={0}
                     name="Time"
