@@ -1,0 +1,74 @@
+.header-color {
+    background-color: #283742;
+}
+li,
+a,
+button {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-decoration: none;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #283742;
+    align-items: center;
+    text-align: right;
+    width: 100%;
+    white-space: nowrap;
+}
+
+nav {
+    display: inline-block;
+}
+
+.nav-links {
+    display: inline-block;
+    list-style: none;
+}
+.cta {
+    display: inline-block;
+    color: #24c3ce;
+    margin-left: 87px;
+    margin-right: 33px;
+}
+.logo {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 105px;
+    margin-left: 36px;
+}
+.nav-links li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #fa7d0a;
+}
+
+.logo-text {
+    font-family: "McLaren";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 67px;
+    display: inline-block;
+    color: #24c3ce;
+    margin-left: 19px;
+}
+.repo-link {
+    color: #24c3ce;
+}
+.logo-svg {
+    display: inline-block;
+    vertical-align: sub;
+}

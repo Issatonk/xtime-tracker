@@ -1,0 +1,35 @@
+.addButtonText {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #ffffff;
+}
+.addButton {
+    float: right;
+    width: 265px;
+    height: 54px;
+    background: #24c3ce;
+    border-radius: 10px;
+    border-style: none;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.titlePage {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+
+    color: #000000;
+}
+.projectMenu {
+    height: 70px;
+    border-bottom-style: solid;
+    margin-bottom: 32px;
+}

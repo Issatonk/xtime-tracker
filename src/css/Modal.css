@@ -1,0 +1,67 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(40, 55, 66, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+.modal__content {
+    padding: 20px;
+    border-radius: 26px;
+    background-color: white;
+    height: 520px;
+    width: 480px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    transform: scale(0.7);
+    transition: 0.2s;
+}
+
+.modal__content.active {
+    transform: scale(1);
+}
+
+.modal__header {
+    border-radius: 26px 26px 0px 0px;
+    position: relative;
+    padding: auto;
+    top: -20px;
+    left: -20px;
+    width: 480px;
+    height: 64px;
+    background-color: #283742;
+    display: flex;
+    align-items: center;
+}
+.modal__header__text {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #24c3ce;
+    margin-left: 32px;
+}
+.modal__header__right {
+    margin-left: 132px;
+}
+
+.model__close__button {
+    cursor: pointer;
+    fill: rgba(220, 77, 77, 0.5);
+}
+.model__close__button :hover {
+    fill: rgba(220, 77, 77, 1);
+    border: rgba(220, 77, 77, 1);
+}

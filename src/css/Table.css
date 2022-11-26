@@ -1,0 +1,28 @@
+td {
+    color: black;
+    font-size: 24px;
+}
+.tableLink {
+    color: black;
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+th {
+    padding: auto;
+}
+
+tr {
+    text-align: center;
+    border-color: black;
+    border-bottom-style: solid;
+    height: 100px;
+}
+
+.button__margin {
+    margin: 10px 10px 10px 10px;
+}
