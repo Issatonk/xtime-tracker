@@ -2,12 +2,17 @@
 
 xTimeTtacker - это веб сайт, который позволяет записывать время, потраченное на разные задачи
 
+Frontend
+
 ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 )
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 )
 ![css](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
 )
+
+[Backend](https://github.com/Issatonk/xTimeTracker)
+
 ![c#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white
 )
 ![mssql](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white
@@ -18,11 +23,26 @@ xTimeTtacker - это веб сайт, который позволяет зап�
 ![xUnit](https://img.shields.io/badge/xUnit-323330?style=for-the-badge
 )
 
+
+
 ## Frontend screenshots
 ___
 ### Start Page
 ![start](https://github.com/Issatonk/Issatonk/blob/main/src/xTimeTracker/StartPage.png)
 
+### Running timer
+![timer](https://github.com/Issatonk/Issatonk/blob/main/src/xTimeTracker/TimerStart.png)
+
+### Adding a log entry when click done
+![addLog](https://github.com/Issatonk/Issatonk/blob/main/src/xTimeTracker/AddLog.png)
+
+### Project table
+Для задач и журнала страницы аналогичны этой
+
+![Projects](https://github.com/Issatonk/Issatonk/blob/main/src/xTimeTracker/Projects.png)
+
+### Stats
+![Stats](https://github.com/Issatonk/Issatonk/blob/main/src/xTimeTracker/Stats.png)
 ## Available Scripts
 ___
 
